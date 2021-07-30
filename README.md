@@ -1,2 +1,2 @@
-# fist-website
+# first-website
 My very first website
