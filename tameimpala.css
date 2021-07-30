@@ -1,0 +1,458 @@
+* {
+    font-size: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    
+    background-image: url(img/Tame\ Impala2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white; margin:0px; 
+    padding: 0px; 
+    margin-top: 0px;
+
+}
+
+
+
+
+
+/*      COMEÇO CABEÇALHO        */
+#cabecalho {
+
+    background-image: url(img/tameimpalasobre.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1080px;
+    float: left;
+    margin: auto;
+
+}
+#tcabecalho {
+    
+    color: white; 
+    font-size: 166px; 
+    text-align: center;
+    opacity: 90%;
+    margin-top: 333px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+#triangle {
+
+    float: right;
+    position: absolute; top: 800px; right: 48.5%;
+    width: 50px;
+    opacity: 77%;
+
+}
+/*        FIM CABEÇALHO       */
+
+
+
+/*        COMECO SOBRE       */
+
+#sobre {
+
+    background-color: #daaa38;
+    background-image: url(img/divsobre.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96%; height: auto; min-width: 1200px;
+    float: left;
+    color: rgb(20, 19, 19);
+    margin: 2%;
+    margin-top: 0px;
+    border-radius: 33px;
+    z-index: 999999;
+
+}
+#dtsobre{
+
+    background-color:  #e4b445;
+    background-image: url(img/divtsobre.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 100%;
+    margin-bottom: 6%;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+
+}
+#tsobre {
+
+    text-align: center;
+    opacity: 77%;
+    font-size: 68px;
+
+}
+#dpsobre {
+
+    width: 33%;
+    background-color: transparent;
+    margin-left: 133px;
+
+}
+#psobre {
+
+    margin: 0px;
+    margin-top: 0px;
+    text-align: justify;
+    font-size: 160%;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+
+}
+#imgsobre {
+
+    float: right;
+    margin-top: 0px;
+    margin-right: 133px;
+    margin-bottom: 6%;
+    width: 33%;
+    border-radius: 9px;
+    box-shadow: 0px 5px 5px  #a18135;
+
+}
+/*        FIM SOBRE       */
+
+
+
+
+
+
+
+/*        COMECO ALBUNS       */
+
+#wavedivider {
+
+    float: left;
+    width: 100%;
+    margin-top: 8%;
+
+}
+#dtalbuns {
+
+    background-color: rgb(26, 22, 22);
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+
+}
+/*        COMECO INNER       */
+#talbuns {
+
+    text-align: center;
+    font-size: 68px;
+    color: #eee;
+    float: unset;
+    opacity: 77%;
+    margin-top: 60px;
+
+}
+#inner {
+    
+    width: 96%; height: auto; min-width: 1200px;
+    margin: 2%; margin-top: 2%;
+    float: left;
+    background-color:  rgb(24, 124, 218);
+    background-image: url(img/innerspeakerg.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    border-radius: 33px;
+
+}
+#dti {
+
+    background-color:  rgb(24, 140, 218);
+    background-image: url(img/div2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 100%;
+    min-width: 1200px;
+    height: 169px;
+    position: relative;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+
+}
+#ti {
+
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 7.5%;
+    margin-top: 60px;
+
+}
+#anoi {
+
+    float: right;
+    font-size: 48px;
+    margin-right: 140px;
+    margin-top: 60px;
+
+}
+#imgi {
+
+    width: 34%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    float: left;
+    opacity: 80%;
+    position: relative;
+    border-bottom-left-radius: 33px;
+
+} #imgi:hover {
+
+    transform: translateX(7%);
+    width: 34%; 
+    border-radius: 4%;
+    opacity: 100%;
+    position: relative;
+
+}
+#dpremiosi {
+    
+    background-color: rgb(11, 97, 179);
+    background-image: url(img/div.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24%;
+    height: auto;
+    margin-top: 66px;
+    margin-left: 5%;
+    float: left;
+    padding: 20px;
+    opacity: 80%;
+    border-radius: 33px;
+    box-shadow: 0px 5px 5px  rgb(43, 97, 145);
+}
+#tpremiosi {
+
+    float: left;
+    font-size: 48px;
+    margin-left: 20px;
+    margin-top: 33px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#premiosi {
+
+    float: left;
+    margin-left: 66px;
+    margin-bottom: 10%;
+    
+}
+#dmusicasi {
+    
+    background-color: rgb(11, 97, 179);
+    background-image: url(img/div.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24%;
+    height: auto;
+    margin-top: 66px;
+    margin-left: 4%;
+    float: left;
+    padding: 20px;
+    opacity: 80%;
+    border-radius: 33px;
+    box-shadow: 0px 5px 5px  rgb(43, 97, 145);
+}
+#tmusicasi {
+
+    float: left;
+    font-size: 48px;
+    margin-left: 20px;
+    margin-top: 33px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#musicasi {
+
+    float: left;
+    margin-left: 66px;
+    margin-bottom: 10%;
+    font-size: 20px;
+    
+}
+
+/*-------FIM INNER-------*/
+
+
+
+/*-------COMECO LONERISM-------*/
+#lonerism {
+    
+    color:  rgb(3, 3, 3);
+    width: 96%; height: auto; min-width: 1200px;
+    margin: 2%; margin-top: 8%;
+    float: left;
+    background-color:  rgb(255, 255, 255);
+    background-image: url(img/lonerismg.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    border-radius: 33px;
+
+}
+#dtl {
+
+    background-color:#fcd7a0;
+    background-image: url(img/dtlonerism.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 100%;
+    min-width: 1200px;
+    height: 169px;
+    position: relative;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+
+}
+#tl {
+
+    font-size: 48px;
+    float: right;
+    margin-right: 7.5%;
+    margin-top: 60px;
+
+}
+#anol {
+
+    float: left;
+    font-size: 48px;
+    margin-left: 140px;
+    margin-top: 60px;
+
+}
+#imgl {
+
+    width: 34%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    float: right;
+    opacity: 80%;
+    z-index: 999999;
+    position: relative;
+    border-bottom-right-radius: 33px;
+
+} #imgl:hover {
+
+    transform: translateX(-7%);
+    width: 33.9%; 
+    border-radius: 4%;
+    opacity: 100%;
+    z-index: 999999;
+    position: relative;
+    
+}
+#dpremiosl {
+    
+    background-color:#fcd7a0;
+    background-image: url(img/dtlonerism.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24%;
+    height: auto;
+    margin-top: 66px;
+    margin-right: 5%;
+    float: right;
+    padding: 20px;
+    opacity: 80%;
+    border-radius: 33px;
+    box-shadow: 0px 5px 5px #8a7c69;
+}
+#tpremiosl {
+
+    float: left;
+    font-size: 48px;
+    margin-left: 20px;
+    margin-top: 33px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#premiosl {
+
+    float: left;
+    margin-left: 66px;
+    margin-bottom: 10%;
+    
+}
+#dmusicasl {
+    
+    background-color:#fcd7a0;
+    background-image: url(img/dtlonerism.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24%;
+    height: auto;
+    margin-top: 66px;
+    margin-right: 4%;
+    float: right;
+    padding: 20px;
+    opacity: 80%;
+    border-radius: 33px;
+    box-shadow: 0px 5px 5px #8a7c69;
+}
+#tmusicasl {
+
+    float: left;
+    font-size: 48px;
+    margin-left: 20px;
+    margin-top: 33px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#musicasl {
+
+    float: left;
+    margin-left: 66px;
+    margin-bottom: 10%;
+    font-size: 20px;
+    
+}
+
+
+/*        FIM ALBUNS       */
+
+
+/*        COMECO RODAPE       */
+#rodape {
+
+    background-color:rgb(20, 19, 19);
+    float: left;
+    width: 100%;
+    height: 166px;
+
+}
+#prodape {
+
+    text-align: center;
+    margin-top: 33px;
+
+}
+/*        FIM RODAPE       */

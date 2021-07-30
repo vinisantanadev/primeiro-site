@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    
+    background-color: rgb(19, 17, 20);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.dtop {
+
+    width: 100%; height: 43px;
+    background-color: black;
+    float: left;
+    position: fixed;
+    box-shadow: 0px 5px 5px	rgb(16, 16, 16);
+
+}
+.top {
+
+    width: 100%;
+    float: left;
+
+}
+.dbcanais {
+
+    float: left;
+    background-color: transparent;
+    width: 290px;
+    height: 933px;
+
+}
+.canaisseguidos {
+
+    float: left;
+    position: fixed; left: 26px; top: 86px;
+    width: 248px; height: 800px;
+    background-color: rgb(31, 31, 35);
+    opacity: 100%;
+    border-radius: 33px;
+    box-shadow: 0px 5px 5px	rgb(16, 16, 16);
+
+}
+.canais {
+
+    float: left;
+    width: 90%;
+    margin-top: 16px;
+    margin: 5%;
+
+}
+.dbuscaamg {
+
+    float: left;
+    width: 100%;
+    height: 66px;
+    margin-top: 47px;
+    background-color: rgb(24, 24, 27);
+    border-bottom-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+
+}
+.buscaamg {
+
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    margin: 5%;
+
+}
+.dstream {
+
+    width: 64.3%; height: auto;
+    float: left; margin-top: 76px;
+    background-color: transparent;
+    padding: 0.5%;
+    border-radius: 33px;
+
+}
+.stream {
+
+    float: left;
+    width: 100%;
+    border-radius: 33px;
+    box-shadow: 0px 5px 5px	rgb(16, 16, 16);
+
+}
+.dchat {
+
+    float: right;
+    position: fixed; right: 26px; top: 86px;
+    width: 329px; height: 800px;
+    background-color:  	rgb(24, 24, 27);
+    opacity: 100%;
+    border-radius: 33px;
+    box-shadow: 0px 5px 5px	rgb(16, 16, 16);
+
+}
+.chat {
+
+    float: left;
+    width: 98%;
+    margin-top: 16px;
+
+}
+.chatt {
+
+    float: left;
+    width: 98%;
+    margin-top: 26px;
+
+}
+.digitechat {
+
+    float: left;
+    width: 100%;
+    height: 100px;
+    margin-top: 129px;
+    background-color:  rgb(31, 31, 35);
+    border-bottom-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+
+}
+.dichat {
+
+    width: 90%;
+    margin: 5%;
+    margin-top: 1%;
+
+}
+.desc {
+
+    width: 63.3%; height: auto;
+    float: left; margin-left: 9px; margin-top: 26px;
+    background-color: rgb(14, 14, 16);
+    padding: 0.5%;
+    border-radius: 33px;
+    margin-bottom: 86px;
+    box-shadow: 0px 5px 5px	rgb(16, 16, 16);
+
+}
+.chanelinfo {
+
+    width: 98%;
+    margin: 1%;
+
+}
+.chanelinfo2 {
+
+    width: 75%;
+    margin: 12.5%;
+    margin-top: 0%;
+    border-radius: 16.5px;
+    margin-bottom: 2%;
+
+}
+
